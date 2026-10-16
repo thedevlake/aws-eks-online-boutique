@@ -1,0 +1,23 @@
+name: Validate Kubernetes Manifests
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validate Kubernetes YAML
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Validate Kubernetes manifests
+        uses: docker://ghcr.io/yannh/kubeconform:latest
+        with:
+          args: -strict -summary kubernetes/online-boutique.yaml
