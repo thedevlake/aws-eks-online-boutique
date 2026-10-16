@@ -1,6 +1,6 @@
 # Deploying Google Online Boutique on AWS EKS
 
-A hands-on cloud engineering project deploying Google's Online Boutique microservices demo to Amazon EKS using Terraform and Kubernetes.
+A hands-on project deploying Google's Online Boutique microservices demo to Amazon EKS using Terraform and Kubernetes.
 
 ## Project Overview
 
