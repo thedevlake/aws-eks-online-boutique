@@ -149,6 +149,13 @@ Confirm that you are targeting the intended resources. AWS resources may incur c
 - Document the architecture with a diagram.
 - Improve cost monitoring and operational documentation.
 
+
+## Additional Documentation
+
+- [Architecture and Request Flow](docs/architecture.md)
+- [Kubernetes Troubleshooting Guide](docs/troubleshooting.md)
+
+
 ## Acknowledgements
 
 The application is Google's open-source [Online Boutique](https://github.com/GoogleCloudPlatform/microservices-demo), used here as a practical deployment target for learning AWS and Kubernetes.
